@@ -1,0 +1,57 @@
+/*==========================================================================================*/
+/*Statical Calculator css*/
+
+.InputField{
+  color: Red;
+  font-weight: bold;
+}
+
+/*======================================*/
+/*P3 TextBox Form*/
+.P3TextFields{
+  /* Just to center the form on the page */
+  margin: left;
+  width: 500px;
+  position: relative;
+}
+
+.P3TextFields div + div {
+  margin-top: 1em;
+  position: relative;
+}
+
+/*Project 3 Labels*/
+/*Right Labels*/
+.P3TextLabels{
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 115px;
+  text-align: right;
+  color: blue;
+}
+
+/*Left Labels*/
+.P3TextLabelss{
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+  color: blue;
+}
+
+/*TextBox*/
+.P3TextBox {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 160px;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  
+  border: 2px solid #255;
+}
+
+

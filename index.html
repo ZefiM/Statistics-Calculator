@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stat Calculator</title>
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+	<h2>Statistics Calculator</h2>
+	<a><div class="InputField">Input Field: </div></a>
+	<form class = P3TextArea name="P3TextArea" onsubmit="performStatistics(); return false;" method="post">
+		<textarea name = "Numbers" rows="1" cols="84" required></textarea>
+	<br> 
+	<input type="reset" value="Reset">
+	<input type="submit" value="Submit">
+	<br>
+	<br>
+	<div class = P3TextFields >
+		<div>
+		<label class = P3TextLabelss>Min: </label>
+            <input class = P3TextBox  type="text" name="Min" id="Min" readonly>
+        <label class = P3TextLabels>Max: </label>
+            <input class = P3TextBox  type="text" name="Max" id="Max" readonly>
+			</div>
+			<div>
+        <label class = P3TextLabelss>Median: </label>
+            <input class = P3TextBox  type="text" name="Median" id="Median" readonly>
+		<label class = P3TextLabels>Mean: </label>
+            <input class = P3TextBox type="text" name="Mean" id="Mean" readonly>
+            </div>
+			<div>
+        <label class = P3TextLabelss>Mode: </label>
+            <input class = P3TextBox type="text" name="Mode" id="Mode" readonly>
+        <label class = P3TextLabels>Std Deviation: </label>
+            <input class = P3TextBox type="text" name="StdDev" id="StdDev" readonly>
+			</div>
+			<div>
+		<label class = P3TextLabelss>Sum: </label>
+            <input class = P3TextBox type="text" name="Sum" id="Sum"  readonly>
+		<label class = P3TextLabels>Variance: </label>
+            <input class = P3TextBox type="text" name="Variance" id="Variance" readonly>	
+			</div>
+	</div>
+    </form>
+
+	</body>
+</html>
